@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_sort">Sort</string>
+    <string name="action_sort_by_most_popular">Sort by popularity</string>
+    <string name="action_sort_by_highest_rated">Sort by rating</string>
+    <string name="pref_poster_sort_key" translatable="false">posterSort</string>
+    <!-- Label for the sort order preference -->
+    <string name="pref_sort_order_label">Sort Order</string>
+    <!-- Key name for storing sort order in SharedPreferences -->
+    <string name="pref_sort_order_key" translatable="false">sort_order</string>
+    <!-- Label for population option in sort order preference  -->
+    <string name="pref_sort_order_popularity_label">By most popular</string>
+    <!-- Label for rating option in sort order preference  -->
+    <string name="pref_sort_order_rating_label">By highest-rated</string>
+    <string name="pref_sort_order_popularity" translatable="false">popularity.desc</string>
+    <string name="pref_sort_order_rating" translatable="false">vote_average.desc</string>
+    <string name="title_activity_detail">Movie Details</string>
+    <string name="error_title">Error</string>
+    <string name="error_message">There was an error. Please try again.</string>
+    <string name="error_positive_button_text">OK</string>
+    <string name="title_sort_settings">Sort Order</string>
+    <string name="network_connectivity_error_title">Connectivity error!</string>
+    <string name="network_connectivity_error_message">There is no network connection.</string>
+    <string name="synopsis_placeholder_text">Sample Synopsis text.</string>
+    <string-array name="sortOrder">
+        <item>Sort by most popular</item>
+        <item>Sort by highest rated</item>
+        <item>Favorites</item>
+    </string-array>
+
+    <string-array name="sortOrderValues">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+        <item>favorites</item>
+    </string-array>
+
+
+</resources>

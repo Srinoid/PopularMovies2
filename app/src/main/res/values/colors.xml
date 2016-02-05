@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="movie_title_color">#FFFFFF</color>
+    <color name="movie_back_color">#009688</color>
+    <color name="color_gray">#757575</color>
+    <color name="movieTitleBackground">#E74C3C</color>
+    <color name="movieTitleText">#FFFFFF</color>
+    <color name="movieTrailersBackground">#3399FF</color>
+    <color name="movieTrailersText">#FFFFFF</color>
+    <color name="movieReviewsBackground">#3399FF</color>
+    <color name="movieReviewsText">#FFFFFF</color>
+    <color name="pleaseSelectBackground">#3399FF</color>
+    <color name="pleaseSelectText">#FFFFFF</color>
+</resources>

@@ -36,8 +36,6 @@ public class MainActivity extends AppCompatActivity implements OnMovieItemSelect
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         if (savedInstanceState != null) {
             mIsLargeDevice = savedInstanceState.getBoolean(STATE_LARGE_DEVICE);

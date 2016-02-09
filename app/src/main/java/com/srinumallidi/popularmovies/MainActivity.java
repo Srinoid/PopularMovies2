@@ -38,8 +38,6 @@ public class MainActivity extends AppCompatActivity implements OnMovieItemSelect
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setIcon(R.mipmap.ic_launcher); //also displays wide logo
-
 
         if (savedInstanceState != null) {
             mIsLargeDevice = savedInstanceState.getBoolean(STATE_LARGE_DEVICE);
